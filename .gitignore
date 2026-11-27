@@ -1,0 +1,12 @@
+# Entorno y temporales
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.env
+
+# Datos originales: no se versionan
+data/raw/*
+!data/raw/README.md

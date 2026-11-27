@@ -1,0 +1,12 @@
+# Dependencias directas, con versión fija (Python 3.12).
+# Análisis, estadística, modelos y visualización.
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+statsmodels==0.15.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+# Ejecución de los notebooks.
+ipykernel==7.4.0
+jupyterlab==4.6.6
