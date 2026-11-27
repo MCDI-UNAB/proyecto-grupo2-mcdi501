@@ -47,7 +47,7 @@ informes/         PDF entregados
    git config user.name "Nombre Apellido"
    git config user.email "ID+usuario@users.noreply.github.com"
    ```
-2. Una rama por tarea (`feat-descriptiva`, `feat-intervalos`) y un pull request a `main`. Los merges los hace Oscar.
+2. Una rama por tarea (`feat-descriptiva`, `feat-intervalos`) y un pull request a `main`. Cada pull request lo revisa y aprueba una persona del grupo distinta de quien lo abre; el merge se hace después de la aprobación, con «Create a merge commit».
 3. Commits con prefijo y cambio: `ADD intervalos de confianza`, `UPDATE …`, `FIX …`.
 4. Cada persona escribe sus funciones en su archivo de `src/`; cada notebook lo edita una sola persona.
 5. Semilla fija: 42.
