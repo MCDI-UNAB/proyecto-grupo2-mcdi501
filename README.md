@@ -15,7 +15,7 @@ Estadística Computacional para la Toma de Decisiones (MCDI501) · Magíster en 
 
 ## Datos
 
-El dataset está por decidir. Los datos originales no se versionan: ver [`data/raw/README.md`](data/raw/README.md).
+Dataset: **Rain in Australia** (base 1 del apunte del curso), clasificación binaria sobre si lloverá al día siguiente. El archivo fuente (raw) no se versiona: cada integrante lo descarga en `data/raw/` y comprueba su SHA-256, como explica [`data/raw/README.md`](data/raw/README.md).
 
 ## Entorno
 
@@ -32,7 +32,7 @@ jupyter lab
 ## Estructura
 
 ```text
-data/raw/         datos originales (solo se versiona su README)
+data/raw/         archivo fuente (raw); solo se versiona su README
 data/processed/   salidas que reutilizan las siguientes sumativas
 notebooks/        notebooks de cada entrega
 src/              funciones que usan los notebooks
@@ -51,4 +51,4 @@ informes/         PDF entregados
 3. Commits con prefijo y cambio: `ADD intervalos de confianza`, `UPDATE …`, `FIX …`.
 4. Cada persona escribe sus funciones en su archivo de `src/`; cada notebook lo edita una sola persona.
 5. Semilla fija: 42.
-6. No abrir y guardar los CSV con Excel.
+6. No modificar `data/raw/` ni abrir y guardar sus CSV con Excel; las salidas van en `data/processed/`.
