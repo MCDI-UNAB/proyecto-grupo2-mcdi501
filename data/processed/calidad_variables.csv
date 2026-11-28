@@ -1,0 +1,24 @@
+Variable,Tipo,Escala,Unidad,Válidos,Faltantes,% faltantes,Valores distintos,Mínimo,Máximo,"Fuera de 1,5·RIC"
+Date,Fecha,Intervalo,día,145460,0,0.0,3436,2007-11-01,2017-06-25,
+Location,Cualitativa nominal,Nominal,ubicación,145460,0,0.0,49,,,
+MinTemp,Cuantitativa continua,Intervalo,°C,143975,1485,1.02,389,-8.5,33.9,54
+MaxTemp,Cuantitativa continua,Intervalo,°C,144199,1261,0.87,505,-4.8,48.1,489
+Rainfall,Cuantitativa continua,Razón,mm,142199,3261,2.24,681,0.0,371.0,25578
+Evaporation,Cuantitativa continua,Razón,mm,82670,62790,43.17,358,0.0,145.0,1995
+Sunshine,Cuantitativa continua,Razón,horas,75625,69835,48.01,145,0.0,14.5,0
+WindGustDir,Cualitativa nominal,Nominal circular,16 rumbos,135134,10326,7.1,16,,,
+WindGustSpeed,Cuantitativa continua,Razón,km/h,135197,10263,7.06,67,6.0,135.0,3092
+WindDir9am,Cualitativa nominal,Nominal circular,16 rumbos,134894,10566,7.26,16,,,
+WindDir3pm,Cualitativa nominal,Nominal circular,16 rumbos,141232,4228,2.91,16,,,
+WindSpeed9am,Cuantitativa continua,Razón,km/h,143693,1767,1.21,43,0.0,130.0,1817
+WindSpeed3pm,Cuantitativa continua,Razón,km/h,142398,3062,2.11,44,0.0,87.0,2523
+Humidity9am,Cuantitativa continua,Razón,%,142806,2654,1.82,101,0.0,100.0,1425
+Humidity3pm,Cuantitativa continua,Razón,%,140953,4507,3.1,101,0.0,100.0,0
+Pressure9am,Cuantitativa continua,Razón,hPa,130395,15065,10.36,546,980.5,1041.0,1191
+Pressure3pm,Cuantitativa continua,Razón,hPa,130432,15028,10.33,549,977.1,1039.6,919
+Cloud9am,Cuantitativa discreta,Ordinal,oktas,89572,55888,38.42,10,0.0,9.0,0
+Cloud3pm,Cuantitativa discreta,Ordinal,oktas,86102,59358,40.81,10,0.0,9.0,0
+Temp9am,Cuantitativa continua,Intervalo,°C,143693,1767,1.21,441,-7.2,40.2,262
+Temp3pm,Cuantitativa continua,Intervalo,°C,141851,3609,2.48,502,-5.4,46.7,764
+RainToday,Cualitativa binaria,Nominal,No / Yes,142199,3261,2.24,2,,,
+RainTomorrow,Cualitativa binaria (objetivo),Nominal,No / Yes,142193,3267,2.25,2,,,

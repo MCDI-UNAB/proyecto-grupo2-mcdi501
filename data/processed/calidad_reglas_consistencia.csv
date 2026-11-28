@@ -1,0 +1,16 @@
+Regla,Filas evaluadas,Filas que la incumplen,% que incumple
+Humidity9am entre 0 y 100,142806,0,0.0
+Humidity3pm entre 0 y 100,140953,0,0.0
+Rainfall no negativa,142199,0,0.0
+Evaporation no negativa,82670,0,0.0
+Sunshine no negativa,75625,0,0.0
+WindGustSpeed no negativa,135197,0,0.0
+WindSpeed9am no negativa,143693,0,0.0
+WindSpeed3pm no negativa,142398,0,0.0
+MinTemp no supera a MaxTemp,143579,0,0.0
+"Temp9am dentro de [MinTemp, MaxTemp]",143684,16,0.011
+"Temp3pm dentro de [MinTemp, MaxTemp]",141810,1255,0.885
+Ráfaga no menor que las velocidades de 9:00 y 15:00,135128,5,0.004
+Nubosidad entre 0 y 8 oktas,93716,3,0.003
+RainToday = Yes solo si Rainfall > 1 mm,142199,0,0.0
+RainTomorrow igual a RainToday del día siguiente,142017,0,0.0
